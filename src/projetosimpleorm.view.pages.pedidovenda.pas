@@ -144,7 +144,8 @@ implementation
 
 procedure TPagePedidoVenda.FormClose(Sender: TObject; var Action: TCloseAction);
 begin
-  FDataSource.DisposeOf;
+  //FDataSource.DisposeOf;
+  FreeAndNil(FDataSource);
 end;
 
 procedure TPagePedidoVenda.FormCreate(Sender: TObject);

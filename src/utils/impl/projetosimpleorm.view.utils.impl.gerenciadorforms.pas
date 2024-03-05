@@ -27,6 +27,9 @@ type
 
 implementation
 
+uses
+  System.SysUtils;
+
 function TGerenciadorForm<T>.Add: iGerenciadorForm<T>;
 var
   lForm: TForm;
@@ -53,7 +56,8 @@ end;
 
 destructor TGerenciadorForm<T>.Destroy;
 begin
-  FListForm.DisposeOf;
+  //FListForm.DisposeOf;
+  freeandnil(FListForm);
   inherited;
 end;
 
