@@ -149,6 +149,9 @@ end;
 
 procedure TPagePedidoVenda.FormCreate(Sender: TObject);
 begin
+  PagePedidoVenda.Height := 720;
+  PagePedidoVenda.Width := 900;
+
   FixarTamanhoForm;
   FDataSource := TDataSource.Create(nil);
 
