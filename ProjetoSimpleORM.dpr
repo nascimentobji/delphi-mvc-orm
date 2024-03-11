@@ -11,7 +11,9 @@ uses
   projetosimpleorm.view.utils.interfaces in 'src\view\utils\projetosimpleorm.view.utils.interfaces.pas',
   projetosimpleorm.view.utils.impl.forms in 'src\view\utils\impl\projetosimpleorm.view.utils.impl.forms.pas',
   projetosimpleorm.view.utils.impl.gerenciadorforms in 'src\view\utils\impl\projetosimpleorm.view.utils.impl.gerenciadorforms.pas',
-  projetosimpleorm.view.utils.impl.resourceimage in 'src\view\utils\impl\projetosimpleorm.view.utils.impl.resourceimage.pas';
+  projetosimpleorm.view.utils.impl.resourceimage in 'src\view\utils\impl\projetosimpleorm.view.utils.impl.resourceimage.pas',
+  projetosimpleorm.model.Interfaces in 'src\model\projetosimpleorm.model.Interfaces.pas',
+  projetosimpleorm.model.impl.Configuracao in 'src\model\impl\projetosimpleorm.model.impl.Configuracao.pas';
 
 {$R *.res}
 
