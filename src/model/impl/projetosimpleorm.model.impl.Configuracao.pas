@@ -1,4 +1,4 @@
-unit projetosimpleorm.model.impl.Configuracao;
+unit projetosimpleorm.model.impl.configuracao;
 
 interface
 
